@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Figurine marketplace</title>
+    <script src="https://kit.fontawesome.com/9689663944.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon" onclick="form()">
+             <i class="fas fa-bars">New Product</i>   
+            </span>
+                <span class="nav-icon">Our Products</span>
+            <div class="cart-btn">
+                <button class="nav-icon" onclick="showcart()">
+                    <i class="fas fa-cart-plus"></i>
+                </button>
+                <div id="cart-items">0</div>
+            </div>
+            <div class="cart-btn">
+                <button class="nav-icon" onclick="showchat()">
+                    <i class="fas fa-comment-dots"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+</head>
+<body>
+    <main>
+        <section id="products">Products</section>
+        <section id="cart"></section> 
+        <section id="chat"></section> 
+    </main>
+    <script src="jquery.min.js"></script>
+    <script src="scripts.js"></script> 
+</body>
+</html>
